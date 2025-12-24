@@ -1,0 +1,335 @@
+{
+	"id": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"createdAt": "2025-12-07T10:53:58.748Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/KARIMANSHAWKI/Neptun-DXP-Event-System.git",
+		"branch": "master"
+	},
+	"name": "Event Registration System",
+	"description": null,
+	"ver": "25.12.24.1005",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "a30065ca-a928-4cb6-b42f-ca3fd862ebd4",
+			"application": "organizerapp",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "8bf42870-7dca-43c1-8fbc-a968c8a8b6fb",
+			"application": "pendingevents",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "6af83c01-fb94-4218-8a7d-8233c0e093e3",
+			"application": "eventcrud",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "68fba643-3505-4764-b195-811bc057e8f2",
+			"application": "submitsuccessevent",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "64b00431-5c43-4a61-8576-c777851847f3",
+			"application": "createeventform",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "56280a45-d61f-4da7-b17b-d070d97fb4c9",
+			"application": "attendeeregistrationapp",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "1d4445f8-4c37-43c4-aea3-a27b22dfa80d",
+			"application": "EventApplication",
+			"title": null,
+			"description": null
+		}
+	],
+	"api": [
+		{
+			"id": "e35f2739-6f09-4294-86a3-2cf0516d2e21",
+			"name": "Events",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "6fa97c27-e77e-49b5-bb2c-448413b6ce35",
+			"name": "Registers",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "08627bd9-28bb-46a2-aebf-538b09d18034",
+			"name": "WeatherAPI",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "da2ee074-ad46-47e2-b47e-2f35553aafa9",
+			"name": "category",
+			"description": "Entity representing different categories such as Conference, Workshop, and Webinar"
+		},
+		{
+			"id": "b9a16512-b587-4791-925d-dd15c5df1cfd",
+			"name": "feedback",
+			"description": "Feedback Entity for capturing user feedback."
+		},
+		{
+			"id": "70d355a8-e12b-4127-b74a-40cd51d3cbb2",
+			"name": "registredusers",
+			"description": null
+		},
+		{
+			"id": "1ea98392-00c0-48d2-b748-4678e6615ee9",
+			"name": "event",
+			"description": "Table to store event information"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "cff217a7-766e-4dae-b5a2-56335aeae3b1",
+			"name": "SetupListingPublishedEvents",
+			"description": null
+		},
+		{
+			"id": "c243701c-3421-4aa7-9f51-1f2d5350edf1",
+			"name": "NotifyOrganizerAfterStatusChanged",
+			"description": null
+		},
+		{
+			"id": "8cf4148b-6ba6-4fbf-817b-67f276db8af3",
+			"name": "test",
+			"description": null
+		},
+		{
+			"id": "8a2d92e8-354f-4135-9fb0-10203d41efe5",
+			"name": "setup",
+			"description": null
+		},
+		{
+			"id": "85d76b2b-b59f-4e20-b6e9-f6f13b5af525",
+			"name": "SetupRegisterUser",
+			"description": null
+		},
+		{
+			"id": "5d732bd6-14fb-4ea8-bf17-fddb0815597d",
+			"name": "PublishedEvents",
+			"description": null
+		},
+		{
+			"id": "24c947f5-0817-4fe5-bee0-fe76c9c9a883",
+			"name": "GenerateTicketAndSendConfirmationMail",
+			"description": null
+		},
+		{
+			"id": "11e6aefa-dda8-48ad-a0d7-c8f5ff11d313",
+			"name": "RegisterAttendee",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "b47b4229-ae18-43e6-89f6-5982059ef274",
+			"name": "Events",
+			"description": ""
+		},
+		{
+			"id": "8277e5a5-b9eb-4262-af20-b5ec96f054b2",
+			"name": "Events",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "9eea822b-fae1-44cc-9ac7-b7ef3d43df4d",
+			"name": "RegisterAttendeeForm",
+			"description": "RegisterAttendeeForm",
+			"application": "neptunedxp_adaptive_edit"
+		},
+		{
+			"id": "7c63c206-3f3c-4f3c-9327-d8990fdfbbf4",
+			"name": "CreateEventForm",
+			"description": "Create Event Form",
+			"application": "neptunedxp_adaptive_edit"
+		},
+		{
+			"id": "602dd861-65a4-4f21-b7a1-404e3c33df56",
+			"name": "EventRegistrationApp",
+			"description": "EventRegistrationApp",
+			"application": "neptunedxp_adaptive_grid"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "e2f63934-f1a5-46fb-b3f4-c0380ad89550",
+			"description": null,
+			"name": "Approver"
+		},
+		{
+			"id": "da14b68b-d326-4e6c-be0b-51b3b874454f",
+			"description": null,
+			"name": "Explore Upcoming Events"
+		},
+		{
+			"id": "bab030b5-1799-4e17-a284-c398a3dbb0a6",
+			"description": null,
+			"name": "Event Management"
+		},
+		{
+			"id": "b86d9662-76a2-47d9-a5ff-bc772b06cfc3",
+			"description": null,
+			"name": "Orgainzer"
+		},
+		{
+			"id": "09179a82-f655-4e93-bfca-acd119ef965c",
+			"description": null,
+			"name": "Event Management"
+		}
+	],
+	"tile_layout": [],
+	"category": [
+		{
+			"id": "ea6aafe4-b8a0-4f9b-8338-74795b91a816",
+			"description": null,
+			"name": "Registration Flow"
+		},
+		{
+			"id": "9a1b2ce0-01fa-46b1-a5a7-6293323c5be9",
+			"description": null,
+			"name": "Event Managemnet"
+		}
+	],
+	"tilegroup_layout": [],
+	"launchpad": [
+		{
+			"id": "71a60791-ca26-4b4c-86dc-f0f3803617da",
+			"name": "Event-Registration",
+			"description": null
+		}
+	],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [
+		{
+			"id": "aa505166-522b-4b26-9b00-d1128e829a53",
+			"name": "Approver",
+			"description": null
+		},
+		{
+			"id": "926a7048-8d82-4fba-b55b-c677ad5964bf",
+			"name": "Administrator",
+			"description": null
+		},
+		{
+			"id": "57b79224-8011-4763-ac6d-c9483e7672fd",
+			"name": "Attendee",
+			"description": null
+		},
+		{
+			"id": "25948b67-2ede-40cb-90c5-4d0361eb2d4f",
+			"name": "Organizer",
+			"description": null
+		},
+		{
+			"id": "1f5812a2-b5f7-4f78-8bcc-adcf97902ca6",
+			"name": "Event Manager",
+			"description": null
+		}
+	],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "faf93bd2-6094-41bf-846d-01f0649ab402",
+			"name": "NotifyOrganizerAfterStatusChanged",
+			"description": "Your Order Confirmation - Order #{=order_id}"
+		},
+		{
+			"id": "9e7f4015-ce5f-48b6-ac61-b371f297b390",
+			"name": "RegisterConfirmationMail",
+			"description": "Registration Confirmation for {=event_name}"
+		}
+	],
+	"department": [],
+	"script_scheduler": [
+		{
+			"id": "e3f46615-bdcd-4383-851a-4a351ab75b95",
+			"name": "NotifyOrganizerAfterStatusChanaged",
+			"description": null
+		},
+		{
+			"id": "bd1274a5-46ea-4af1-b302-6d1c0f1c468b",
+			"name": "GenerateTicketAndSendConfirmationMail",
+			"description": null
+		}
+	],
+	"wf_definition": [
+		{
+			"id": "f348dcf5-de6b-4e53-8f3f-1cc7dcc4c999",
+			"title": "Event Approval Workflow",
+			"subTitle": null
+		},
+		{
+			"id": "3dfc45a2-938d-4e17-9d48-98506c4d126b",
+			"title": "Event Workflow",
+			"subTitle": null
+		}
+	],
+	"connector": [
+		{
+			"id": "d1aa58f3-458f-41e6-a840-0a1d9ae2a351",
+			"name": "Create Event",
+			"description": null
+		},
+		{
+			"id": "b27cd859-ce2e-4446-8c93-e47f85ed2045",
+			"name": "ListEvents",
+			"description": null
+		},
+		{
+			"id": "0ae0f43e-19f2-40be-8549-33d6f7183af1",
+			"name": "SubmitRegistration",
+			"description": null
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [
+		{
+			"id": "3d6ca457-4b0f-4155-b0d4-43c388997f84",
+			"name": "Event Approver",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "c33064f0-237b-4a1a-ba19-ae6580b9b886",
+			"name": "Event Approval Workflow",
+			"description": null
+		}
+	],
+	"theme_ui5": [],
+	"webapp": []
+}

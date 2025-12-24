@@ -1,0 +1,256 @@
+{
+	"id": "602dd861-65a4-4f21-b7a1-404e3c33df56",
+	"createdAt": "2025-12-10T04:13:59.708Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": true,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"avatarBackgroundColor": "Accent2",
+				"avatarIcon": "sap-icon://tnt/terminate-end-event",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"fieldType": "Navigation",
+					"displayResponse": false,
+					"dialogHeader": true,
+					"destinationTargetF": "9eea822b-fae1-44cc-9ac7-b7ef3d43df4d",
+					"keyField": [
+						{
+							"fieldName": "eventid",
+							"key": "",
+							"value": "ID"
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"gridBoxPerRow": "XL7 L6 M4 S2",
+				"gridBoxMinWidth": "",
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"initialSortField": "eventdate",
+				"initialSortOrder": "DESC",
+				"initialGroupField": "id",
+				"postProcessingScript": "8a2d92e8-354f-4135-9fb0-10203d41efe5"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Draft, Pending, Approved, Published, Completed, Cancelled",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "Event description",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "title",
+				"label": "Event name",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "capacity",
+				"label": "Maximum number of attendees",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdByPerson",
+				"label": "Username of the organizer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "location",
+				"label": "Venue name or address",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "eventdate",
+				"label": "When the event takes place",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "location",
+				"text": "Venue name or address",
+				"fieldPos": 1,
+				"type": "Description",
+				"statusInverted": true,
+				"textType": "Emphasized",
+				"textFontSize": "FontSize6",
+				"formatter": "lowercase"
+			},
+			{
+				"name": "capacity",
+				"text": "Maximum number of attendees",
+				"enableFilter": false,
+				"type": "Status",
+				"textColor": "Success",
+				"statusInverted": true,
+				"textType": "Badge",
+				"textFontSize": "FontSize1",
+				"statusIconType": "Binding",
+				"fieldPos": 2
+			},
+			{
+				"name": "title",
+				"text": "Event name",
+				"type": "Title",
+				"formatter": "uppercase",
+				"fieldPos": 3
+			},
+			{
+				"name": "eventdate",
+				"text": "When the event takes place",
+				"type": "SubTitle",
+				"textType": "Badge",
+				"formatter": "date02",
+				"textColor": "Secondary",
+				"fieldPos": 4,
+				"statusInverted": false,
+				"statusIconType": "Binding"
+			}
+		],
+		"defaultVariant": {
+			"id": "4772548a-7493-46e6-f2fc-e23ab7c5727e",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": ""
+				},
+				"fieldCatalog": {}
+			}
+		}
+	},
+	"name": "EventRegistrationApp",
+	"description": "EventRegistrationApp",
+	"group": "",
+	"type": "C",
+	"connectorid": "b27cd859-ce2e-4446-8c93-e47f85ed2045",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.12.23.0415",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_grid",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

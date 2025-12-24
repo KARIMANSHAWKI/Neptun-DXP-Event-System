@@ -1,0 +1,317 @@
+{
+	"id": "b27cd859-ce2e-4446-8c93-e47f85ed2045",
+	"createdAt": "2025-12-10T04:06:10.632Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "1ea98392-00c0-48d2-b748-4678e6615ee9",
+		"hasDocumentation": false,
+		"fieldCatalog": [
+			{
+				"name": "title",
+				"label": "Event name",
+				"type": "mediumtext",
+				"usage": "BOTH",
+				"originalName": "title",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/title"
+					},
+					"save": {
+						"input": "Content/title",
+						"output": "200/title"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/title"
+					}
+				}
+			},
+			{
+				"name": "description",
+				"label": "Event description",
+				"type": "mediumtext",
+				"usage": "BOTH",
+				"originalName": "description",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/description"
+					},
+					"save": {
+						"input": "Content/description",
+						"output": "200/description"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/description"
+					}
+				}
+			},
+			{
+				"name": "eventdate",
+				"label": "When the event takes place",
+				"type": "text",
+				"usage": "BOTH",
+				"originalName": "eventdate",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/eventdate"
+					},
+					"save": {
+						"input": "Content/eventdate",
+						"output": "200/eventdate"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/eventdate"
+					}
+				}
+			},
+			{
+				"name": "location",
+				"label": "Venue name or address",
+				"type": "mediumtext",
+				"usage": "BOTH",
+				"originalName": "location",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/location"
+					},
+					"save": {
+						"input": "Content/location",
+						"output": "200/location"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/location"
+					}
+				}
+			},
+			{
+				"name": "capacity",
+				"label": "Maximum number of attendees",
+				"type": "integer",
+				"usage": "BOTH",
+				"originalName": "capacity",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/capacity"
+					},
+					"save": {
+						"input": "Content/capacity",
+						"output": "200/capacity"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/capacity"
+					}
+				}
+			},
+			{
+				"name": "status",
+				"label": "Draft, Pending, Approved, Published, Completed, Cancelled",
+				"type": "mediumtext",
+				"usage": "BOTH",
+				"originalName": "status",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/status"
+					},
+					"save": {
+						"input": "Content/status",
+						"output": "200/status"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/status"
+					}
+				}
+			},
+			{
+				"name": "createdByPerson",
+				"label": "Username of the organizer",
+				"type": "mediumtext",
+				"usage": "BOTH",
+				"originalName": "createdByPerson",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/createdByPerson"
+					},
+					"save": {
+						"input": "Content/createdByPerson",
+						"output": "200/createdByPerson"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/createdByPerson"
+					}
+				}
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH",
+				"originalName": "updatedAt",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/updatedAt"
+					},
+					"save": {
+						"input": "Content/updatedAt",
+						"output": "200/updatedAt"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/updatedAt"
+					}
+				}
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH",
+				"originalName": "createdAt",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/createdAt"
+					},
+					"save": {
+						"input": "Content/createdAt",
+						"output": "200/createdAt"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/createdAt"
+					}
+				}
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH",
+				"originalName": "updatedBy",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/updatedBy"
+					},
+					"save": {
+						"input": "Content/updatedBy",
+						"output": "200/updatedBy"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/updatedBy"
+					}
+				}
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH",
+				"originalName": "createdBy",
+				"mapping": {
+					"get": {
+						"input": "",
+						"output": ""
+					},
+					"list": {
+						"input": "",
+						"output": "200/createdBy"
+					},
+					"save": {
+						"input": "Content/createdBy",
+						"output": "200/createdBy"
+					},
+					"delete": {
+						"input": "",
+						"output": "200/createdBy"
+					}
+				}
+			}
+		],
+		"overriddenFieldCatalog": true,
+		"apis": {
+			"get": {
+				"api": "e35f2739-6f09-4294-86a3-2cf0516d2e21",
+				"path": "01a92df1-24ad-49ad-8b2a-0d625c71e84b"
+			},
+			"list": {
+				"api": "e35f2739-6f09-4294-86a3-2cf0516d2e21",
+				"path": "01a92df1-24ad-49ad-8b2a-0d625c71e84b"
+			},
+			"save": {
+				"api": "e35f2739-6f09-4294-86a3-2cf0516d2e21",
+				"path": "ff0fb9ab-ff40-490b-a664-0675a10258f4"
+			},
+			"delete": {
+				"api": "e35f2739-6f09-4294-86a3-2cf0516d2e21",
+				"path": "56a699f6-2a87-4891-9c1a-4739ccad51fc"
+			}
+		},
+		"scriptSel": "cff217a7-766e-4dae-b5a2-56335aeae3b1",
+		"scriptRun": "5d732bd6-14fb-4ea8-bf17-fddb0815597d"
+	},
+	"documentation": {
+		"content": ""
+	},
+	"name": "ListEvents",
+	"description": null,
+	"group": null,
+	"type": "S",
+	"ver": "25.12.10.0644",
+	"disabled": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

@@ -1,0 +1,82 @@
+{
+	"id": "1ea98392-00c0-48d2-b748-4678e6615ee9",
+	"createdAt": "2025-12-07T10:56:36.265Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "title",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Event name",
+			"isNullable": false,
+			"id": "c1470125-a666-4e53-9e89-6592568bc83c"
+		},
+		{
+			"fieldName": "description",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Event description",
+			"isNullable": true,
+			"id": "55a248cf-fd2c-4633-ad25-b54670c84a49"
+		},
+		{
+			"fieldName": "eventdate",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "When the event takes place",
+			"isNullable": false,
+			"id": "e7705867-1743-4e37-b6be-e32226e0de25"
+		},
+		{
+			"fieldName": "location",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Venue name or address",
+			"isNullable": true,
+			"id": "485f22ab-e333-439a-9e45-3161b93efc4e"
+		},
+		{
+			"fieldName": "capacity",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Maximum number of attendees",
+			"isNullable": false,
+			"id": "ec2880bc-d5cb-467d-9f41-12a5201ea5f8"
+		},
+		{
+			"fieldName": "status",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Draft, Pending, Approved, Published, Completed, Cancelled",
+			"isNullable": false,
+			"id": "23339c9c-d801-4fe0-e86a-d7b17c4a1532"
+		},
+		{
+			"fieldName": "createdByPerson",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Username of the organizer",
+			"isNullable": true,
+			"id": "d042903a-537e-4d00-c0b4-6be5bf0819c7",
+			"default": ""
+		},
+		{
+			"id": "f354a889-132b-466e-af0f-53c3ada5256e",
+			"fieldName": "notifyOrganizerPending",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "event",
+	"description": "Table to store event information",
+	"ver": "25.12.21.2025",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,11 @@
+{
+	"id": "25948b67-2ede-40cb-90c5-4d0361eb2d4f",
+	"createdAt": "2025-12-07T13:16:45.740Z",
+	"createdBy": "admin",
+	"name": "Organizer",
+	"description": null,
+	"ver": "25.12.07.1316",
+	"isGlobalAdmin": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"acl": []
+}

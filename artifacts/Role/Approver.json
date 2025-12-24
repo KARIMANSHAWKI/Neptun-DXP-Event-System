@@ -1,0 +1,11 @@
+{
+	"id": "aa505166-522b-4b26-9b00-d1128e829a53",
+	"createdAt": "2025-12-21T11:51:26.191Z",
+	"createdBy": "admin",
+	"name": "Approver",
+	"description": null,
+	"ver": "25.12.21.1151",
+	"isGlobalAdmin": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"acl": []
+}

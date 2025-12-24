@@ -1,0 +1,12 @@
+{
+	"id": "9e7f4015-ce5f-48b6-ac61-b371f297b390",
+	"createdAt": "2025-12-23T02:18:21.181Z",
+	"createdBy": "admin",
+	"translation": null,
+	"name": "RegisterConfirmationMail",
+	"description": "Registration Confirmation for {=event_name}",
+	"content": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"><link href=\"http://localhost:8080/public/editor/suneditor.min.css?version=24.12.1\" rel=\"stylesheet\"></head><body class=\"sun-editor-editable\" style=\"\" ><p>Dear {=participant_name},</p><p>Thank you for registering for the {=event_name} event!</p><p>We are pleased to confirm your registration. Please find your ticket attached as a PDF, along with your unique QR code below:</p><p>We look forward to seeing you on {=event_date}!</p><p>Best Regards,<br>{=company_name}</p></body></html>",
+	"ver": "25.12.23.2222",
+	"type": "template",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

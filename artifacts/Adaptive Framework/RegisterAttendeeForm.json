@@ -1,0 +1,190 @@
+{
+	"id": "9eea822b-fae1-44cc-9ac7-b7ef3d43df4d",
+	"createdAt": "2025-12-10T06:24:49.558Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Register",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"confirmationCheckCreate": false,
+				"confirmationCheckUpdate": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"titleConfirmCreate": "Create entry",
+				"textConfirmCreate": "Are you sure you want to create this entry?",
+				"titleConfirmUpdate": "Update entry",
+				"textConfirmUpdate": "Are you sure you want to update this entry?",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields",
+				"title": "Register to Event"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "eventid",
+				"label": "Eveent Id",
+				"type": "uuid",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "attendeeemail",
+				"label": "attendeeEmail",
+				"type": "email",
+				"usage": "BOTH"
+			},
+			{
+				"name": "attendeename",
+				"label": "attendeename",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "registrationdate",
+				"label": "registrationdate",
+				"type": "date",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ticketnumber",
+				"label": "ticketnumber",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"name": "attendeename",
+				"text": "Full Name",
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"fieldPos": 1,
+				"required": true
+			},
+			{
+				"name": "attendeeemail",
+				"text": "Email",
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"fieldPos": 2,
+				"inputType": "Email",
+				"required": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "attendeeemail",
+				"text": "attendeeEmail",
+				"fieldPos": 3
+			},
+			{
+				"name": "attendeename",
+				"text": "attendeename",
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "02863f54-6941-4f36-9c13-25d4e0a16dab",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textUnique": "",
+					"textButtonClose": "",
+					"textButtonSave": "",
+					"textToastSave": "",
+					"textButtonDelete": "",
+					"textToastDelete": "",
+					"textButtonAttachment": "",
+					"tab0Text": "",
+					"tabAText": "",
+					"tab1Text": "",
+					"tab2Text": "",
+					"tab3Text": "",
+					"tab4Text": "",
+					"tab5Text": "",
+					"titleConfirmCreate": "",
+					"textConfirmCreate": "",
+					"titleConfirmUpdate": "",
+					"textConfirmUpdate": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"requiredFieldsToast": ""
+				},
+				"form": {},
+				"table": {},
+				"fieldCatalog": {}
+			}
+		}
+	},
+	"name": "RegisterAttendeeForm",
+	"description": "RegisterAttendeeForm",
+	"group": "",
+	"type": "C",
+	"connectorid": "3f26063b-b5e5-4d46-b59c-27051a3f2e68",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.12.10.0745",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_edit",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

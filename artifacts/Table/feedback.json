@@ -1,0 +1,147 @@
+{
+	"id": "b9a16512-b587-4791-925d-dd15c5df1cfd",
+	"createdAt": "2025-12-07T12:12:22.812Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "feedbackid",
+			"fieldType": "uuid",
+			"isUnique": true,
+			"description": "Primary key (auto-generated)",
+			"isNullable": false,
+			"id": "1b0e01ed-28c4-4042-b43f-12dcabdc5e2a"
+		},
+		{
+			"fieldName": "registrationid",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"description": "Reference to Registration entity",
+			"isNullable": false,
+			"id": "64a3667b-f494-4aa1-ba2f-9f2c1ed3cd9c"
+		},
+		{
+			"fieldName": "rating",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "1-5 star rating",
+			"isNullable": false,
+			"id": "03afaaa6-34ce-4b47-91fa-25b6a55b510e"
+		},
+		{
+			"fieldName": "comments",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Optional feedback text",
+			"isNullable": true,
+			"id": "5589ea3c-ef29-4458-f2e1-ef59e497c5c0"
+		},
+		{
+			"fieldName": "submittedat",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"description": "When feedback was submitted",
+			"isNullable": false,
+			"id": "73787192-a5ce-4320-d88e-8864c2c7b954"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "d63fcad0-c908-4990-ae12-7bf0c76cca4a",
+			"name": "FK_7376703a2b53cff2c7126ad283b",
+			"referencedTable": "registrationentity",
+			"referencedTableId": "6d86113d-4938-4db5-8b46-80abb97fb325",
+			"referencedTableColumns": [
+				{
+					"fieldName": "registrationid",
+					"fieldType": "uuid",
+					"isUnique": true,
+					"description": "Primary key (auto-generated)",
+					"isNullable": false,
+					"id": "5409e2b5-e7c7-42fe-d46e-70dd1de54342"
+				},
+				{
+					"fieldName": "eventid",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"description": "Reference to Event entity",
+					"isNullable": false,
+					"id": "b5d82a4a-ef4a-4b8c-e4fc-365f669dafc5"
+				},
+				{
+					"fieldName": "attendeename",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Name of the attendee",
+					"isNullable": true,
+					"id": "0db3bebd-4c1e-431b-e777-ccc72a46cf0e"
+				},
+				{
+					"fieldName": "attendeeemail",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Email address",
+					"isNullable": true,
+					"id": "d41a2d84-bc13-4ad8-8b7a-371549e11303"
+				},
+				{
+					"fieldName": "registrationdate",
+					"fieldType": "timestamptz",
+					"isUnique": false,
+					"description": "When registration was made",
+					"isNullable": false,
+					"id": "12ef7bee-8aaf-4dee-81fe-4184d2f0f6ae"
+				},
+				{
+					"fieldName": "status",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Status of registration (Confirmed, Cancelled, Attended)",
+					"isNullable": true,
+					"id": "e932dac6-f5d0-453d-899d-8da85205ffe9"
+				},
+				{
+					"fieldName": "ticketnumber",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Unique ticket identifier",
+					"isNullable": true,
+					"id": "c3dbd4bf-d30e-47c0-9540-45705be2dc7a"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "5409e2b5-e7c7-42fe-d46e-70dd1de54342",
+					"fieldName": "registrationid",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"description": "Reference to Registration entity",
+					"isNullable": false,
+					"id": "64a3667b-f494-4aa1-ba2f-9f2c1ed3cd9c",
+					"referencedColumnName": "registrationid"
+				}
+			]
+		}
+	],
+	"name": "feedback",
+	"description": "Feedback Entity for capturing user feedback.",
+	"ver": "25.12.07.1300",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"generationStrategy": "uuid",
+	"rolesRead": [
+		{
+			"id": "1f5812a2-b5f7-4f78-8bcc-adcf97902ca6",
+			"name": "Event Manager",
+			"ver": "25.12.07.1300"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "1f5812a2-b5f7-4f78-8bcc-adcf97902ca6",
+			"name": "Event Manager",
+			"ver": "25.12.07.1300"
+		}
+	]
+}

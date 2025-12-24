@@ -1,0 +1,50 @@
+{
+	"id": "3dfc45a2-938d-4e17-9d48-98506c4d126b",
+	"createdAt": "2025-12-17T12:48:42.966Z",
+	"createdBy": "adminstratoruser",
+	"tasks": [],
+	"translation": [],
+	"flowEditor": {
+		"objects": [
+			{
+				"id": "object-7896211c-5cf7-4737-eadb-b176808d01de",
+				"name": "Start",
+				"description": "",
+				"templateId": "Start",
+				"templateName": "Start",
+				"typeCSS": "start",
+				"typeImage": "start",
+				"group": "",
+				"input": [],
+				"object": {},
+				"output": [
+					{
+						"name": "output",
+						"value": "",
+						"grouping": "Output",
+						"parent": "Output",
+						"show_script": false,
+						"show_label": false,
+						"show_button": false,
+						"id": "output-a45419d6-9236-4cac-e1a1-d11f2cf3a810"
+					}
+				],
+				"connections": [],
+				"posX": 450,
+				"posY": 100
+			}
+		],
+		"connections": []
+	},
+	"title": "Event Workflow",
+	"subTitle": null,
+	"daysUntilOverdue": null,
+	"daysNotificationInterval": null,
+	"enableNotifications": false,
+	"omitFriday": false,
+	"omitSaturday": false,
+	"omitSunday": false,
+	"icon": null,
+	"ver": "25.12.17.1249",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

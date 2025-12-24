@@ -1,0 +1,31 @@
+{
+	"id": "bd1274a5-46ea-4af1-b302-6d1c0f1c468b",
+	"createdAt": "2025-12-23T01:41:36.952Z",
+	"createdBy": "admin",
+	"scripts": [
+		{
+			"id": "24c947f5-0817-4fe5-bee0-fe76c9c9a883",
+			"name": "GenerateTicketAndSendConfirmationMail",
+			"number": 1,
+			"abort": true,
+			"continue": false,
+			"skipto": false
+		}
+	],
+	"name": "GenerateTicketAndSendConfirmationMail",
+	"description": null,
+	"alertEmail": null,
+	"active": false,
+	"intervalMonths": 1,
+	"intervalDays": null,
+	"intervalHours": null,
+	"intervalMinutes": 0,
+	"intervalSeconds": null,
+	"maxRuntimeSeconds": "0",
+	"restartMaxRuntimeAbort": false,
+	"startdate": "2025-12-23T01:39:12.007Z",
+	"stopdate": "9999-12-31T01:39:00.000Z",
+	"executeInNextCycle": false,
+	"ver": "25.12.23.0142",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

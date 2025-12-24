@@ -1,0 +1,372 @@
+{
+	"id": "6fa97c27-e77e-49b5-bb2c-448413b6ce35",
+	"createdAt": "2025-12-23T22:29:02.047Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "841145a8-888b-4986-a343-b0e4082955e7",
+			"path": "/registrationentity",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "registrationentity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8631b587-d0a0-4e2f-8d52-587fd4c2ac2f",
+			"path": "/registrationentity",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "registrationentity"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "registrationentity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "65523846-eccc-4319-9f22-489abc5c6f15",
+			"path": "/registrationentity",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "registrationentity"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "registrationentity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "613e5413-41c9-4b86-8af6-d0559a425a5c",
+			"path": "/registrationentity",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "registrationentity"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "39f46ed7-3ba9-4730-ba46-362626232cef",
+			"path": "/registrationentity/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "45d08dd4-8e45-4e16-a6db-1ed3827db8cc",
+			"name": "registrationentity",
+			"properties": [
+				{
+					"id": "5c500d47-0617-43bb-9e6b-4331654654ed",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "033b8cb5-ae70-4573-b112-b299ba99dcdc",
+					"parent": "",
+					"name": "registrationid",
+					"description": "Primary key (auto-generated)",
+					"objectType": "uuid"
+				},
+				{
+					"id": "5a5fbb5b-1741-49c2-90a9-bb87f15ba44e",
+					"parent": "",
+					"name": "eventid",
+					"description": "Reference to Event entity",
+					"objectType": "uuid"
+				},
+				{
+					"id": "70a02416-cc43-4306-b1e8-94a0af82a752",
+					"parent": "",
+					"name": "attendeename",
+					"description": "Name of the attendee",
+					"objectType": "string"
+				},
+				{
+					"id": "cadca48c-e360-4c07-8172-db95dd061591",
+					"parent": "",
+					"name": "attendeeemail",
+					"description": "Email address",
+					"objectType": "string"
+				},
+				{
+					"id": "d55565c2-9e6d-4b30-8e0f-e2d1d953d5f9",
+					"parent": "",
+					"name": "registrationdate",
+					"description": "When registration was made",
+					"objectType": "string"
+				},
+				{
+					"id": "b1c694cf-3b6c-4b9c-b76e-f69a11cb5849",
+					"parent": "",
+					"name": "status",
+					"description": "Status of registration (Confirmed, Cancelled, Attended)",
+					"objectType": "string"
+				},
+				{
+					"id": "98d6f87a-167e-4b9d-946c-09afb64e0655",
+					"parent": "",
+					"name": "ticketnumber",
+					"description": "Unique ticket identifier",
+					"objectType": "string"
+				},
+				{
+					"id": "99304cba-4df2-4c52-a176-9a13fa974e7c",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "de48a91e-ef1b-4a8e-9a03-f415ec56fc2f",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "6d0db25f-4763-4151-8af6-42345467ff24",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "e8e97e7b-7bfb-433e-a468-1f5dabfa9d74",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "88403fe0-39bb-4260-a386-52732fbc551a",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "8a0913f7-7efe-4ce8-9f35-a4e24c711543",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "fa771290-0dfa-4481-b8e7-922774527a2b",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "01811ddc-8b00-4f90-985e-cc57a600fcf0",
+			"name": "count",
+			"properties": [
+				{
+					"id": "49d71750-7d44-4c92-bf3a-0f82e05476d6",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "Registers",
+	"endpoint": "/api/entity",
+	"ver": "25.12.23.2229",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

@@ -1,0 +1,2 @@
+handleRegister();
+// App.to(mainDashboardPage);

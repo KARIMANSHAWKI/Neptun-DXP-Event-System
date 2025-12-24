@@ -1,0 +1,20 @@
+{
+	"id": "85d76b2b-b59f-4e20-b6e9-f6f13b5af525",
+	"createdAt": "2025-12-10T06:39:14.337Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "SetupRegisterUser",
+	"ver": "25.12.10.0647",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "8277e5a5-b9eb-4262-af20-b5ec96f054b2",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

@@ -1,0 +1,31 @@
+{
+	"id": "e3f46615-bdcd-4383-851a-4a351ab75b95",
+	"createdAt": "2025-12-21T15:44:11.689Z",
+	"createdBy": "admin",
+	"scripts": [
+		{
+			"id": "c243701c-3421-4aa7-9f51-1f2d5350edf1",
+			"name": "NotifyOrganizerAfterStatusChanged",
+			"number": 1,
+			"abort": true,
+			"continue": false,
+			"skipto": false
+		}
+	],
+	"name": "NotifyOrganizerAfterStatusChanaged",
+	"description": null,
+	"alertEmail": "Kariman.Shawki@linkdev.com",
+	"active": true,
+	"intervalMonths": null,
+	"intervalDays": null,
+	"intervalHours": null,
+	"intervalMinutes": 1,
+	"intervalSeconds": null,
+	"maxRuntimeSeconds": "0",
+	"restartMaxRuntimeAbort": false,
+	"startdate": "2025-12-21T15:39:14.213Z",
+	"stopdate": "9999-12-31T15:39:00.000Z",
+	"executeInNextCycle": false,
+	"ver": "25.12.21.1547",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

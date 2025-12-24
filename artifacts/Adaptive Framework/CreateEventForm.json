@@ -1,0 +1,109 @@
+{
+	"id": "7c63c206-3f3c-4f3c-9327-d8990fdfbbf4",
+	"createdAt": "2025-12-15T11:10:03.279Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {},
+			"form": {},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "title",
+				"label": "Event name",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "Event description",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "eventdate",
+				"label": "When the event takes place",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "location",
+				"label": "Venue name or address",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "capacity",
+				"label": "Maximum number of attendees",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Draft, Pending, Approved, Published, Completed, Cancelled",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdByPerson",
+				"label": "Username of the organizer",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "210d8a13-6de5-40b3-ed04-31b3ec5941c3",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "CreateEventForm",
+	"description": "Create Event Form",
+	"group": "",
+	"type": "C",
+	"connectorid": "d1aa58f3-458f-41e6-a840-0a1d9ae2a351",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.12.15.1110",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_edit",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

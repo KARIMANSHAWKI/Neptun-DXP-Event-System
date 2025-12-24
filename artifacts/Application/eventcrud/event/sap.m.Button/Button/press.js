@@ -1,0 +1,2 @@
+handleUpdateEvent();
+AppCache.Load('eventcrud');

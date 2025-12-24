@@ -1,0 +1,112 @@
+{
+	"id": "68fba643-3505-4764-b195-811bc057e8f2",
+	"createdAt": "2025-12-22T14:22:40.229Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "7b7ac2ed-9c18-435e-d02e-82fa90f8fbaa",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "f069ab54-7410-4a9d-df4b-40549a0d2493",
+					"fieldName": "Page",
+					"fieldParent": "7b7ac2ed-9c18-435e-d02e-82fa90f8fbaa",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "1ba0222f-edf6-4a4b-92c2-f7f532734789",
+							"fieldName": "MessagePage",
+							"fieldParent": "f069ab54-7410-4a9d-df4b-40549a0d2493",
+							"fieldType": "sap.m.MessagePage",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Event Proposal Submitted Successfully :)",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "description",
+									"grouping": "Properties",
+									"value": "Please stay tuned we will send you event approval status.",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "25.12.22.1425",
+	"application": "submitsuccessevent",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"apis": []
+}

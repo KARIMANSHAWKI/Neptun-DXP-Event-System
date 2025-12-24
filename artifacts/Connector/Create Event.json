@@ -1,0 +1,17 @@
+{
+	"id": "d1aa58f3-458f-41e6-a840-0a1d9ae2a351",
+	"createdAt": "2025-12-15T11:08:25.778Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "1ea98392-00c0-48d2-b748-4678e6615ee9",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Create Event",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "25.12.15.1108",
+	"disabled": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

@@ -1,0 +1,21 @@
+if (!status) {
+    return "";
+}
+try {
+    // Use the P9.RuleEngine.run() function which is generally available on the client-side.
+    const result = P9.RuleEngine.run("neptune-adaptivecrm-opportunity-status-rule", { status: status });
+
+    // The rule engine returns an object. You must return the specific property that holds the display text.
+    // Common property names are 'name', 'text', or 'description'. Change 'name' if your rule uses a different output field.
+    if (result && typeof result.name !== 'undefined') {
+        return result.name;
+    } else {
+        // Fallback if the result is not in the expected format
+        console.warn("Rule engine did not return an object with a 'name' property. Result:", result);
+        return status; // Return the original status code as a fallback
+    }
+
+} catch (e) {
+    console.error("Error running rule engine for status:", e);
+    return status; // Return the original status code on error
+}

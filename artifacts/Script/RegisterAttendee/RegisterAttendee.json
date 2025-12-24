@@ -1,0 +1,26 @@
+{
+	"id": "11e6aefa-dda8-48ad-a0d7-c8f5ff11d313",
+	"createdAt": "2025-12-10T06:21:13.943Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "6d86113d-4938-4db5-8b46-80abb97fb325",
+			"name": "registrationentity",
+			"contextname": "registrationentity"
+		}
+	],
+	"apis": [],
+	"name": "RegisterAttendee",
+	"ver": "25.12.24.0259",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "8277e5a5-b9eb-4262-af20-b5ec96f054b2",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

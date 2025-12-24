@@ -1,0 +1,42 @@
+{
+	"id": "da2ee074-ad46-47e2-b47e-2f35553aafa9",
+	"createdAt": "2025-12-07T12:02:05.797Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "categoryid",
+			"fieldType": "uuid",
+			"isUnique": true,
+			"description": "Primary key (auto-generated)",
+			"isNullable": false,
+			"id": "03a4cecc-fdef-44b1-9cff-c67382800139"
+		},
+		{
+			"fieldName": "name",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Category name (e.g., Conference, Workshop, Webinar)",
+			"isNullable": false,
+			"id": "a1a06f6e-d571-4003-f79d-99ee0223b229"
+		},
+		{
+			"fieldName": "description",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Category description",
+			"isNullable": true,
+			"id": "7d883e0b-d1bc-456a-825c-827424fe154e"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "category",
+	"description": "Entity representing different categories such as Conference, Workshop, and Webinar",
+	"ver": "25.12.07.1202",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

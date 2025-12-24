@@ -1,0 +1,31 @@
+{
+	"id": "5d732bd6-14fb-4ea8-bf17-fddb0815597d",
+	"createdAt": "2025-12-10T05:25:08.826Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "1ea98392-00c0-48d2-b748-4678e6615ee9",
+			"name": "event",
+			"contextname": "event"
+		},
+		{
+			"id": "6d86113d-4938-4db5-8b46-80abb97fb325",
+			"name": "registrationentity",
+			"contextname": "registrationentity"
+		}
+	],
+	"apis": [],
+	"name": "PublishedEvents",
+	"ver": "25.12.23.0005",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "8277e5a5-b9eb-4262-af20-b5ec96f054b2",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

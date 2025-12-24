@@ -1,0 +1,12 @@
+{
+	"id": "faf93bd2-6094-41bf-846d-01f0649ab402",
+	"createdAt": "2025-12-21T15:48:44.741Z",
+	"createdBy": "admin",
+	"translation": null,
+	"name": "NotifyOrganizerAfterStatusChanged",
+	"description": "Your Order Confirmation - Order #{=order_id}",
+	"content": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"><link href=\"http://localhost:8080/public/editor/suneditor.min.css?version=24.12.1\" rel=\"stylesheet\"></head><body class=\"sun-editor-editable\" style=\"\" ><p>Dear {=organizer_name},</p><p>Your event with the details below has been changed to <strong>{=status}</strong>.</p><p><strong>Event Name:</strong> {=event_name}</p><p><strong>Event Date:</strong> {=event_date}</p><p><strong>Event Capacity:</strong> {=event_capacity}</p><p>Best regards,</p><p>{=company_name}</p></body></html>",
+	"ver": "25.12.22.1432",
+	"type": "template",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}

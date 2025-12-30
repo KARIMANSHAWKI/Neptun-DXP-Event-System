@@ -72,6 +72,10 @@ function handleCreateEvent(){
         return;
     }
 
+  // 3. Show busy indicator
+    sap.ui.core.BusyIndicator.show(0);
+
+
     // If validation passes, prepare and send data
     let data = {
         title: title,
@@ -88,7 +92,7 @@ function handleCreateEvent(){
         data : data,
         success: function(response) {
             sap.m.MessageToast.show("Event created successfully!");
-            startEventApproveWorkflow(response);
+             startEventApproveWorkflow(response);
             handleNavigation();
         },
         error: function(err) {

@@ -1,0 +1,109 @@
+{
+	"id": "77a774ec-0fad-46ef-b4bf-639097029983",
+	"createdAt": "2025-12-30T02:33:00.257Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": "500",
+				"chartType": "bar",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": "300",
+				"enable3D": true,
+				"alpha3D": "10",
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"lineWidth": "200",
+				"title": "Events"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "title",
+				"label": "Title",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "attendees",
+				"label": "Attendees",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "title",
+				"text": "Title",
+				"visible": true,
+				"fieldPos": 1,
+				"type": "data"
+			},
+			{
+				"name": "attendees",
+				"text": "Attendees",
+				"visible": true,
+				"fieldPos": 2,
+				"type": "value"
+			}
+		],
+		"defaultVariant": {
+			"id": "76fceeed-a2fd-4953-ed29-608872b9c217",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {},
+				"form": {},
+				"table": {},
+				"fieldCatalog": {}
+			}
+		}
+	},
+	"name": "TrendyEvents",
+	"description": "TrendyEvents",
+	"group": "",
+	"type": "C",
+	"connectorid": "65a93d7c-596f-4608-8aac-f0bbacc9f013",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.12.30.0245",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tile_chart",
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

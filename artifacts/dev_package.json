@@ -8,7 +8,7 @@
 	},
 	"name": "Event Registration System",
 	"description": null,
-	"ver": "25.12.24.1005",
+	"ver": "25.12.30.0248",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -134,6 +134,11 @@
 			"description": null
 		},
 		{
+			"id": "4140fba5-b650-4ca4-b5d0-88d8eb203f19",
+			"name": "ListEventsByAttendee",
+			"description": null
+		},
+		{
 			"id": "24c947f5-0817-4fe5-bee0-fe76c9c9a883",
 			"name": "GenerateTicketAndSendConfirmationMail",
 			"description": null
@@ -154,6 +159,11 @@
 			"id": "8277e5a5-b9eb-4262-af20-b5ec96f054b2",
 			"name": "Events",
 			"description": ""
+		},
+		{
+			"id": "5365903e-17ac-4a52-a616-f430bcd4b63d",
+			"name": "ListEventsByAttendeeNumber",
+			"description": ""
 		}
 	],
 	"theme": [],
@@ -173,10 +183,22 @@
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
+			"id": "77a774ec-0fad-46ef-b4bf-639097029983",
+			"name": "TrendyEvents",
+			"description": "TrendyEvents",
+			"application": "neptunedxp_adaptive_tile_chart"
+		},
+		{
 			"id": "602dd861-65a4-4f21-b7a1-404e3c33df56",
 			"name": "EventRegistrationApp",
 			"description": "EventRegistrationApp",
 			"application": "neptunedxp_adaptive_grid"
+		},
+		{
+			"id": "1536dbb1-761a-414e-9c92-fa593e3f647c",
+			"name": "EventAnalyticsApp",
+			"description": "EventAnalyticsApp",
+			"application": "neptunedxp_adaptive_tile_chart"
 		}
 	],
 	"api_authentication": [],
@@ -193,6 +215,11 @@
 			"name": "Explore Upcoming Events"
 		},
 		{
+			"id": "cf5c67f5-d501-40f2-aa25-13f10d47acb2",
+			"description": null,
+			"name": "Events"
+		},
+		{
 			"id": "bab030b5-1799-4e17-a284-c398a3dbb0a6",
 			"description": null,
 			"name": "Event Management"
@@ -201,6 +228,11 @@
 			"id": "b86d9662-76a2-47d9-a5ff-bc772b06cfc3",
 			"description": null,
 			"name": "Orgainzer"
+		},
+		{
+			"id": "5ff7e62f-3929-4079-9593-e30f535834ce",
+			"description": null,
+			"name": "TrendyEvents"
 		},
 		{
 			"id": "09179a82-f655-4e93-bfca-acd119ef965c",
@@ -214,6 +246,11 @@
 			"id": "ea6aafe4-b8a0-4f9b-8338-74795b91a816",
 			"description": null,
 			"name": "Registration Flow"
+		},
+		{
+			"id": "d812fdb7-357e-43b5-93e1-aca035c706dd",
+			"description": null,
+			"name": "Analytics"
 		},
 		{
 			"id": "9a1b2ce0-01fa-46b1-a5a7-6293323c5be9",
@@ -264,7 +301,7 @@
 		{
 			"id": "faf93bd2-6094-41bf-846d-01f0649ab402",
 			"name": "NotifyOrganizerAfterStatusChanged",
-			"description": "Your Order Confirmation - Order #{=order_id}"
+			"description": "Event Proposal Status Change"
 		},
 		{
 			"id": "9e7f4015-ce5f-48b6-ac61-b371f297b390",
@@ -306,6 +343,11 @@
 		{
 			"id": "b27cd859-ce2e-4446-8c93-e47f85ed2045",
 			"name": "ListEvents",
+			"description": null
+		},
+		{
+			"id": "65a93d7c-596f-4608-8aac-f0bbacc9f013",
+			"name": "LsitEVentsByAttendantNumbers",
 			"description": null
 		},
 		{

@@ -5,7 +5,8 @@
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
-		"ea6aafe4-b8a0-4f9b-8338-74795b91a816"
+		"ea6aafe4-b8a0-4f9b-8338-74795b91a816",
+		"d812fdb7-357e-43b5-93e1-aca035c706dd"
 	],
 	"layout": [],
 	"config": {
@@ -50,7 +51,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "25.12.10.1114",
+	"ver": "25.12.30.0131",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -74,6 +75,12 @@
 			"name": "Registration Flow",
 			"title": "Registration Flow",
 			"ver": "25.12.24.0523"
+		},
+		{
+			"id": "d812fdb7-357e-43b5-93e1-aca035c706dd",
+			"name": "Analytics",
+			"title": "Analytics",
+			"ver": "25.12.30.0244"
 		}
 	]
 }

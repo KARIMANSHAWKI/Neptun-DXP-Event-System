@@ -3,25 +3,16 @@ try {
     // This is an array of objects defining the columns for an adaptive component.
     const fieldCatalog = [
         {
-            name: "id",
-            label: "ID",
+            name: "title",
+            label: "Title",
             type: "text"
         },
         {
-            name: "name",
-            label: "Name",
+            name: "attendees",
+            label: "Attendees",
             type: "text"
         },
-        {
-            name: "description",
-            label: "Description",
-            type: "text"
-        },
-        {
-            name: "createdAt",
-            label: "Created At",
-            type: "date"
-        }
+       
     ];
 
     // Set the field catalog as the response data

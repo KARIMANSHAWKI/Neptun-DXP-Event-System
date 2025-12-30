@@ -1,0 +1,18 @@
+{
+	"id": "65a93d7c-596f-4608-8aac-f0bbacc9f013",
+	"createdAt": "2025-12-30T02:28:20.130Z",
+	"createdBy": "admin",
+	"settings": {
+		"scriptSel": "8a2d92e8-354f-4135-9fb0-10203d41efe5",
+		"scriptRun": "4140fba5-b650-4ca4-b5d0-88d8eb203f19",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "LsitEVentsByAttendantNumbers",
+	"description": null,
+	"group": null,
+	"type": "S",
+	"ver": "25.12.30.0231",
+	"disabled": false,
+	"package": "b9d90967-de80-42e8-8bd5-75caf97efd10"
+}
